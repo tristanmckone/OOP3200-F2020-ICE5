@@ -92,13 +92,13 @@ public:
 	static float Distance(const Vector2D& a, const Vector2D& b);
 	static Vector2D ClampMagnitude(const Vector2D& vector, float max_length);
 	static float SqrMagnitude(const Vector2D& a);
-	static Vector2D Min(const Vector2D& lhs, const Vector2D& rhs);
+	
+static Vector2D Min(const Vector2D& lhs, const Vector2D& rhs);
 	static Vector2D Max(const Vector2D& lhs, const Vector2D& rhs);
 
 private:
 	float m_x{};
 	float m_y{};
 };
-
 #endif /* defined (__VECTOR2D__) */
 
