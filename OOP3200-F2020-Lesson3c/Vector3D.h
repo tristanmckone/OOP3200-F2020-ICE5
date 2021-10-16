@@ -12,16 +12,17 @@ public:
 
 
 	// Mutators
-	float setX();
-	float setY();
-	float setZ();
+	float setX() const;
+	float setY() const;
+	float setZ() const;
+	void set(const float x, const float y, const float z);
 
 	// Accessorrs
-	float GetX();
-	float GetY();
-	float GetZ();
+	float GetX(const float x);
+	float GetY(const float y);
+	float GetZ(const float z);
 
-	std::string ToString();
+	std::string ToString() const;
 
 
 
